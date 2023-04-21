@@ -3,7 +3,7 @@ import { ThemeProvider } from 'next-themes';
 
 import '../styles/globals.css';
 import { Navbar, Footer } from '../components';
-import { NFTContext, NFTProvider } from '../context/NFTContext';
+import { NFTProvider } from '../context/NFTContext';
 
 const App = ({ Component, pageProps }) => (
   <NFTProvider>
