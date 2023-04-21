@@ -120,7 +120,6 @@ const NFTDetails = () => {
             </div>
           </div>
         )}
-
         handleClose={() => setPaymentModal(false)}
       />
       )}
